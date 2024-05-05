@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>trhg - Omelette Recipe Page | Frontend Mentor Challenge</title>
+        <link rel="icon" href="assets/images/favicon-32x32.png">
+
+        <!--Meta's-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="TheRedHoodGuy | Okpalannajiaku Xavier">
+        <meta name="description" content="Frontend Mentor Challenge Attempt - One">
+        <!--Metas's-->
+
+        <!--Google Fonts and styles-->
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+        <!--Google Fonts-->
+
+        <!--Scripts-->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    colors: {
+                        nutmeg: '#854632',
+                        dark_raspberry: '#7B284F',
+                        white: '#FFFFFF',
+                        rose_white: '#FFF5FA',
+                        eggshell: '#F3E6D8',
+                        light_grey: '#E4DED8',
+                        wenge_brown: '#5F574E',
+                        dark_charcoal: '#302D2C'
+                    },
+                    fontFamily: {
+                        msans: ['Outfit', 'sans-serif'],
+                        mserif: ['Young Serif', 'serif'],
+                    },
+                    extend: {
+                        // -- Shii goes here -- //
+                    }
+                },
+            }
+        </script>
+        <!--Scripts-->
+    </head>
+    <body class="font-msans bg-eggshell flex justify-center items-center">
+        <div class="bg-white w-screen max-w-3xl sm:rounded-xl sm:p-6 sm:mt-10">
+            <img class="w-full sm:rounded-xl" src="assets/images/image-omelette.jpeg">
+
+            <!--Section 1-->
+            <section class="flex flex-col w-full p-6 gap-6">
+                <div class="flex flex-col gap-6">
+                    <span class="font-mserif font-bold text-[32px]">Simple Omelette Recipe</span>
+                    <span>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables or meats.</span>
+                </div>
+
+                <div class="rounded-xl p-6 bg-rose_white flex flex-col gap-3">
+                    <span class="font-semibold text-xl text-dark_raspberry">Preparation time</span>
+                    <ul class="px-3 list-disc list-outside flex flex-col gap-3">
+                        <li class="text-wenge_brown"><span class="ml-3 font-semibold">Total: </span><span>Approximately 10 minutes</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3 font-semibold">Preparation: </span><span>5 minutes</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3 font-semibold">Cooking: </span><span>5 minutes</span></li>
+                    </ul>
+                </div>
+
+                <div class="p-3 flex flex-col gap-3">
+                    <span class="text-2xl font-semibold font-mserif text-nutmeg">Ingredients</span>
+                    <ul class="px-6 list-disc list-outside flex flex-col gap-3">
+                        <li class="text-wenge_brown"><span class="ml-3">2-3 large eggs</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3">Salt, to taste</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3">Pepper, to taste</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3">1 tablespoon of butter or oil</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3">Optional fillings: cheese, diced vegetables, cooked meats, herbs</span></li>
+                    </ul>
+                </div>
+            </section>        
+            <!--Section 1-->
+
+            <!--Section 2-->
+            <section class="p-6 w-full">
+                <div class="p-3 flex flex-col gap-3">
+                    <span class="text-2xl font-semibold font-mserif text-nutmeg">Instructions</span>
+                    <ul class="px-6 list-decimal list-outside flex flex-col gap-3">
+                        <li class="text-wenge_brown"><span class="ml-3"><span class="font-semibold">Beat the eggs: </span>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3"><span class="font-semibold">Heat the pan: </span>Place a non-stick frying pan over medium heat and add butter or oil.</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3"><span class="font-semibold">Cook the omelette: </span>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3"><span class="font-semibold">Add fillings (optional): </span>When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3"><span class="font-semibold">Fold and serve: </span>As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</span></li>
+                        <li class="text-wenge_brown"><span class="ml-3"><span class="font-semibold">Enjoy: </span>Serve hot, with additional salt and pepper if needed.</span></li>
+                    </ul>
+                </div>
+            </section>
+            <!--Section 2-->
+
+            <!--Section 3-->
+            <section class="p-6 w-full flex flex-col gap-6">
+                <span class="text-2xl font-semibold font-mserif text-nutmeg">Nutrition</span>
+                <span>The table below shows nutritional values per serving without the additional fillings.</span>
+                <table class="w-[70%]">
+                    <tr>
+                        <td class="px-6">Calories</td>
+                        <td class="font-bold text-nutmeg">277kcal</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6">Carbs</td>
+                        <td class="font-bold text-nutmeg">0g</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6">Protein</td>
+                        <td class="font-bold text-nutmeg">20g</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6">Fat</td>
+                        <td class="font-bold text-nutmeg">22g</td>
+                    </tr>
+                </table>
+            </section>
+            <!--Section 3-->
+        </div>
+    </body>
+</html>
